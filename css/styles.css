@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+}
+body {
+  min-height: 100vh;
+  background-color: hsl(225, 100%, 94%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/background-image.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+main {
+  background-color: white;
+  border-radius: 1rem;
+  max-height: 36rem;
+  max-width: 25rem;
+}
+button {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 1rem;
+  margin: 1rem 0 2rem 0;
+  width: 20rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 #59656e;
+  border: 0px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgba(123, 104, 238, 1);
+  transition: background-color 250ms ease-in-out;
+}
+
+/************************************ CLASS SELECTORS ****************************************/
+
+.header {
+  padding: 1rem 0 0.5rem 0;
+  font-weight: 900;
+}
+.hero-img {
+  border-radius: 1rem 1rem 0 0;
+  width: 25rem;
+}
+.info {
+  line-height: 1.5;
+  max-width: 17rem;
+  margin: auto;
+}
+.info p {
+  opacity: 0.5;
+}
+.annual-plan {
+  border-radius: 1rem;
+  background-color: hsl(225, 100%, 98%);
+  max-width: 20rem;
+  margin: 1rem auto 0.5rem auto;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.annual-plan img {
+  justify-self: left;
+}
+.annual-plan span {
+  font-weight: 700;
+  text-align: left;
+  margin-right: 35px;
+}
+.annual-plan span > span {
+  color: hsl(224, 23%, 55%);
+  line-height: 1.5;
+  font-size: 14px;
+  font-weight: 500;
+}
+.annual-plan a {
+  text-decoration: underline;
+  font-size: 14px;
+  justify-self: right;
+}
+.annual-plan a:hover {
+  text-decoration: none;
+  opacity: 0.6;
+}
+.button-section {
+  display: grid;
+  align-items: start;
+  margin: 0 auto;
+  max-width: 20rem;
+}
+.button-section a {
+  margin-bottom: 30px;
+}
+.cancel-order {
+  font-weight: 900;
+  font-size: 14px;
+  color: #59656e;
+}
+.cancel-order:hover,
+.cancel-order:focus {
+  cursor: pointer;
+  color: hsl(223, 47%, 23%);
+  transition: color 250ms ease-in-out;
+}
