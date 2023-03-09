@@ -6,7 +6,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 <h2 align="center">Links</h2>
 
-- Solution URL: [Order Summary Component (SASS + Mobile first + BEM) | Frontend Mentor](https://www.frontendmentor.io/solutions/order-summary-component-sass-mobile-first-bem-BlfUdr5oBv)
+- Solution URL: [Order Summary Component](https://github.com/judgetoworld/Order-summary-component)
 
 <br>
 
